@@ -15,7 +15,7 @@ export const Header = ({ openModal }: HeaderProps) => {
         <nav>
           <div>
             <button type="button" onClick={openModal}>
-              <div className="text">Novo Prato</div>
+              <div className="text">Novo</div>
               <div className="icon">
                 <FiPlusSquare size={24} />
               </div>
